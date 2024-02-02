@@ -19,5 +19,7 @@ def sum_factorial():
 
     return result
 
+
+
 if __name__ == "__main__":
     sum_factorial()

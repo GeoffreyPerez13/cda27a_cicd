@@ -1,17 +1,35 @@
 import time
 
-final_list = [] 
+final_list = []
 
 def factorial(n):
+    """
+    Fonction pour calculer la factorielle de n
+
+    Args:
+        n : nombre
+    
+    Returns:
+        la factorielle
+    """
     time.sleep(.1)
     factorial = 1
 
     for i in range (1,n+1):
-        factorial = factorial * i 
+        factorial = factorial * i
 
-    return factorial 
+    return factorial
 
 def sum_factorial():
+    """
+    Fonction pour calculer la factorielle de n
+
+    Args:
+        n : nombre
+    
+    Returns:
+        la factorielle
+    """
     for i in range(50):
         final_list.append(factorial(i))
     result=sum(final_list)
